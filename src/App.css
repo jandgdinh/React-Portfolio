@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+
 /* Ensure the entire page has a dark blue background */
 html, body {
   background-color: #1a1a2e; /* Dark blue background */
@@ -111,6 +113,26 @@ content {
 footer {
   margin-top: 24px; /* Add space above the footer */
   margin-bottom: 24px; /* Add space below the footer */
+  text-align: center;
+  padding: 1rem;
+  background-color: #1a1a2e; /* Dark blue background */
+  color: #ffffff; /* White text */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the icons */
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #ffffff; /* White color for icons */
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #61dafb; /* Light blue on hover */
 }
 
 /* Style for Cards */
@@ -153,4 +175,7 @@ footer {
   color: #888;
 }
 
+header h1 {
+  font-family: "Nanum Brush Script", cursive;
+}
 

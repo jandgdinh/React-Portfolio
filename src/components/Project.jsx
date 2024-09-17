@@ -1,16 +1,22 @@
 import React from 'react';
-import './Project.css'; // Assuming you have a CSS file for styling
+import './Project.css';
+import githubIcon from '../images/githubimage.png';
 
-function Project({ title, image, description, link }) {
+function Project({ title, image, description, githubLink, deployedLink }) {
   return (
     <div className="project-card">
       <img src={image} alt={title} className="project-image" />
       <div className="project-content">
         <h3 className="project-title">{title}</h3>
         <p className="project-description">{description}</p>
-        <a href={link} className="project-link" target="_blank" rel="noopener noreferrer">
-          View Project
-        </a>
+        <div className="project-links">
+          <a href={githubLink} className="project-link" target="_blank" rel="noopener noreferrer">
+            <img id="github" src={githubIcon} alt="GitHub" className="github-icon" />
+          </a>
+          <a href={deployedLink} className="project-link" target="_blank" rel="noopener noreferrer">
+            View Deployed Project
+          </a>
+        </div>
       </div>
     </div>
   );

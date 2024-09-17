@@ -6,11 +6,13 @@
     width: 100%;
     max-width: 300px;
     margin: 16px;
+    background-color: #f8f9fa;
   }
   
   .project-image {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Ensure the image takes full width of its container */
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
   }
   
   .project-content {
@@ -21,6 +23,9 @@
     font-size: 1.5em;
     margin: 0 0 8px;
   }
+  h3.project-title {
+    color: #212529;
+  }
   
   .project-description {
     font-size: 1em;
@@ -30,6 +35,12 @@
   .project-link {
     color: #007bff;
     text-decoration: none;
+  }
+
+  .project-links {
+    display: flex;
+    align-items: center;
+    gap: 80px; /* Add space between the links */
   }
   
   .project-link:hover {
@@ -42,3 +53,14 @@
     justify-content: center;
     gap: 16px;
   }
+
+  #github {
+    width: 24px; /* Adjust the size of the icon */
+    height: 24px; /* Adjust the size of the icon */
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  #github:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  }
+

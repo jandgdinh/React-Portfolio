@@ -11,41 +11,49 @@ function Portfolio() {
       title: 'READMEcreator',
       image: 'https://miro.medium.com/v2/resize:fit:1200/1*oppPsIqwEiB_kndtd6GWxA.png',
       description: 'This program will create a README.md for the user. This used node.js and inquirer',
-      link: 'https://github.com/jandgdinh/READMEcreator'
+      githubLink: 'https://github.com/jandgdinh/READMEcreator',
+      deployedLink: 'https://example.com/READMEcreator' // Add the deployed link
     },
     {
       title: 'VehicleCreator',
-      image: vehicleCreatorImage,
+      image: 'https://nodejs.org/zh-tw/next-data/og?title=Node.js%20%E2%80%94%20Node.js%20with%20TypeScript&type=announcement',
       description: 'This is a command line project that will help the user create a vehicle using node.js and typescript',
-      link: 'https://github.com/jandgdinh/VehicleCreator'
+      githubLink: 'https://github.com/jandgdinh/VehicleCreator',
+      deployedLink: 'https://example.com/VehicleCreator' // Add the deployed link
     },
     {
       title: 'weatherDashboard',
-      image: weatherDashboardImage,
+      image: 'https://via.placeholder.com/150',
       description: 'This application will give the user a weather dashboard for multiple cities.',
-      link: 'https://github.com/jandgdinh/weatherDashboard'
+      githubLink: 'https://github.com/jandgdinh/weatherDashboard',
+      deployedLink: 'https://example.com/weatherDashboard' // Add the deployed link
     },
     {
       title: 'Coding Quiz Game',
-      image: codingQuizImage,
+      image: 'https://via.placeholder.com/150',
       description: 'Simple coding quiz created together with 3 other developers using git, HTML, CSS, and JavaScript.',
-      link: 'https://example.com/project4'
+      githubLink: 'https://example.com/project4',
+      deployedLink: 'https://example.com/CodingQuizGame' // Add the deployed link
     },
     {
       title: 'Prompt Engineering',
       image: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*ETT6Lw3JvyD62KDTMuG3Mg.png',
-      description: 'Gives a response using openai\'s ChatGPT api in a enthusatic way with a post request and city name given',
-      link: 'https://github.com/jandgdinh/PromptEngineering'
+      description: 'Gives a response using openai\'s ChatGPT api in a enthusiastic way with a post request and city name given',
+      githubLink: 'https://github.com/jandgdinh/PromptEngineering',
+      deployedLink: 'https://example.com/PromptEngineering' // Add the deployed link
     },
     {
       title: 'employeeCreator',
       image: employeeTrackerImage,
       description: 'This will let the user create a database and modify employee roles and more. This application using npm and PostGreSQL',
-      link: 'https://github.com/jandgdinh/employeeTracker'
+      githubLink: 'https://github.com/jandgdinh/employeeTracker',
+      deployedLink: 'https://example.com/employeeCreator' // Add the deployed link
     },
   ];
 
   return (
+    <>
+    <h2>Projects</h2>
     <div className="projects-container">
       {projectData.map((project, index) => (
         <Project
@@ -53,10 +61,12 @@ function Portfolio() {
           title={project.title}
           image={project.image}
           description={project.description}
-          link={project.link}
+          githubLink={project.githubLink}
+          deployedLink={project.deployedLink} // Pass the deployed link
         />
       ))}
     </div>
+    </>
   );
 }
 

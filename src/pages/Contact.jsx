@@ -1,36 +1,36 @@
 import React, { useState } from 'react';
 import './Contact.css'; // Assuming you have a CSS file for styling
 
-export default function Contact() {
+function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errors, setErrors] = useState({});
 
-  const validateEmail = (email) => {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(String(email).toLowerCase());
-  };
-
   const handleBlur = (field) => {
     let newErrors = { ...errors };
     if (!name && field === 'name') {
       newErrors.name = 'Name is required';
-    } else {
+    } else if (field === 'name') {
       delete newErrors.name;
     }
+
     if (!email && field === 'email') {
       newErrors.email = 'Email is required';
-    } else if (email && !validateEmail(email)) {
-      newErrors.email = 'Invalid email address';
-    } else {
+    } else if (field === 'email') {
       delete newErrors.email;
     }
+
     if (!message && field === 'message') {
       newErrors.message = 'Message is required';
-    } else {
+    } else if (field === 'message') {
       delete newErrors.message;
     }
+
+    if (email && field === 'email' && !/\S+@\S+\.\S+/.test(email)) {
+      newErrors.email = 'Email is invalid';
+    }
+
     setErrors(newErrors);
   };
 
@@ -39,21 +39,21 @@ export default function Contact() {
     let newErrors = {};
     if (!name) newErrors.name = 'Name is required';
     if (!email) newErrors.email = 'Email is required';
-    else if (!validateEmail(email)) newErrors.email = 'Invalid email address';
+    if (email && !/\S+@\S+\.\S+/.test(email)) newErrors.email = 'Email is invalid';
     if (!message) newErrors.message = 'Message is required';
+
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      // Form is valid, submit the form
+      // Submit form
       console.log('Form submitted:', { name, email, message });
     }
   };
 
   return (
-    <div>
-      <h1>Contact John Dinh</h1>
-      <form onSubmit={handleSubmit}>
-        <label>Name:</label>
+    <div className="contact-form-container">
+      <form onSubmit={handleSubmit} className="contact-form">
+        <label htmlFor="name">Name:</label>
         <input
           type="text"
           name="name"
@@ -63,8 +63,8 @@ export default function Contact() {
           className="form-input"
         />
         {errors.name && <p className="error">{errors.name}</p>}
-        
-        <label>Email:</label>
+
+        <label htmlFor="email">Email:</label>
         <input
           type="email"
           name="email"
@@ -74,8 +74,8 @@ export default function Contact() {
           className="form-input"
         />
         {errors.email && <p className="error">{errors.email}</p>}
-        
-        <label>Message:</label>
+
+        <label htmlFor="message">Message:</label>
         <textarea
           name="message"
           value={message}
@@ -84,9 +84,11 @@ export default function Contact() {
           className="form-input"
         />
         {errors.message && <p className="error">{errors.message}</p>}
-        
+
         <button type="submit" className="form-button">Submit</button>
       </form>
     </div>
   );
 }
+
+export default Contact;
