@@ -156,7 +156,7 @@ footer {
 }
 .card-image {
   width: 100%; /* Ensure the image takes full width of its container */
-  height: 200px; /* Set a fixed height for the assets */
+  height: 200px; /* Set a fixed height for the images */
   object-fit: cover; /* Ensure the image covers the entire area without distortion */
 }
 .card-content {
