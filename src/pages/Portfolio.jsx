@@ -1,9 +1,9 @@
 import Project from "../components/Project";
 import '../components/Project.css';
-import weatherDashboardImage from '../images/weatherDashboard.png';
-import codingQuizImage from '../images/codingQuiz.png';
-import employeeTrackerImage from '../images/employeeTracker.png';
-import vehicleCreatorImage from '../images/vehicleCreator.png';
+import weatherDashboardImage from '../assets/weatherDashboard.png';
+import codingQuizImage from '../assets/codingQuiz.png';
+import employeeTrackerImage from '../assets/employeeTracker.png';
+import vehicleCreatorImage from '../assets/vehicleCreator.png';
 
 function Portfolio() {
   const projectData = [

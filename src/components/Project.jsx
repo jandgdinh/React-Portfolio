@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import githubIcon from '../images/githubimage.png';
+import githubIcon from '../assets/githubimage.png';
 
 function Project({ title, image, description, githubLink, deployedLink }) {
   return (
