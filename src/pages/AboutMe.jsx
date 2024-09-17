@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 
 import "../components/Project.css";
-import profilePic from "../images/profilePic.jpg";
+import profilePic from "../images/profilepic.jpg";
 
 export default function AboutMe() {
   return (
