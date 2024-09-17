@@ -1,45 +1,48 @@
 import Project from "../components/Project";
 import '../components/Project.css';
+import weatherDashboardImage from '../images/weatherDashboard.png';
+import codingQuizImage from '../images/codingQuiz.png';
+import employeeTrackerImage from '../images/employeeTracker.png';
+import vehicleCreatorImage from '../images/vehicleCreator.png';
 
 function Portfolio() {
   const projectData = [
     {
-      title: 'Project 1',
-      image: 'https://via.placeholder.com/150',
-      description: 'This is a description for Project 1.',
-      link: 'https://example.com/project1'
+      title: 'READMEcreator',
+      image: 'https://miro.medium.com/v2/resize:fit:1200/1*oppPsIqwEiB_kndtd6GWxA.png',
+      description: 'This program will create a README.md for the user. This used node.js and inquirer',
+      link: 'https://github.com/jandgdinh/READMEcreator'
     },
     {
-      title: 'Project 2',
-      image: 'https://via.placeholder.com/150',
-      description: 'This is a description for Project 2.',
-      link: 'https://example.com/project2'
+      title: 'VehicleCreator',
+      image: vehicleCreatorImage,
+      description: 'This is a command line project that will help the user create a vehicle using node.js and typescript',
+      link: 'https://github.com/jandgdinh/VehicleCreator'
     },
     {
-      title: 'Project 3',
-      image: 'https://via.placeholder.com/150',
-      description: 'This is a description for Project 3.',
-      link: 'https://example.com/project3'
+      title: 'weatherDashboard',
+      image: weatherDashboardImage,
+      description: 'This application will give the user a weather dashboard for multiple cities.',
+      link: 'https://github.com/jandgdinh/weatherDashboard'
     },
     {
-      title: 'Project 4',
-      image: 'https://via.placeholder.com/150',
-      description: 'This is a description for Project 4.',
+      title: 'Coding Quiz Game',
+      image: codingQuizImage,
+      description: 'Simple coding quiz created together with 3 other developers using git, HTML, CSS, and JavaScript.',
       link: 'https://example.com/project4'
     },
     {
-      title: 'Project 5',
-      image: 'https://via.placeholder.com/150',
-      description: 'This is a description for Project 5.',
-      link: 'https://example.com/project5'
+      title: 'Prompt Engineering',
+      image: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*ETT6Lw3JvyD62KDTMuG3Mg.png',
+      description: 'Gives a response using openai\'s ChatGPT api in a enthusatic way with a post request and city name given',
+      link: 'https://github.com/jandgdinh/PromptEngineering'
     },
     {
-      title: 'Project 6',
-      image: 'https://via.placeholder.com/150',
-      description: 'This is a description for Project 6.',
-      link: 'https://example.com/project6'
+      title: 'employeeCreator',
+      image: employeeTrackerImage,
+      description: 'This will let the user create a database and modify employee roles and more. This application using npm and PostGreSQL',
+      link: 'https://github.com/jandgdinh/employeeTracker'
     },
-    // Add more projects as needed
   ];
 
   return (

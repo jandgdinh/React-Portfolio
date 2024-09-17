@@ -1,25 +1,21 @@
 import React from "react";
 import "../App.css";
 import Card from "../components/Card";
+import Project from "../components/Project";
+import "../components/Project.css";
+import Portfolio from "./Portfolio";
 
 export default function AboutMe() {
   return (
     <div className="home">
       <content>
         <p>
-          Hi my name is John Dinh and I am a Full Stack Developer. I have experience with HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. I am currently looking for a job as a Full Stack Developer. Please contact me if you have any job opportunities.
+          Hi my name is John Dinh and I am a Full Stack Developer. I have experience with HTML, CSS, JavaScript, React, Node.js, Express, and PostgreSQL. I am currently looking for a job as a Full Stack Developer. Please contact me if you have any job opportunities.
         </p>
         
         <div className="Projects">
           <h2>Projects</h2>
-          <div className="card-container">
-            <Card title="Project 1" image="https://via.placeholder.com/150" content="This is a project." />
-            <Card title="Project 2" image="https://via.placeholder.com/150" content="This is a project." />
-            <Card title="Project 3" image="https://via.placeholder.com/150" content="This is a project." />
-            <Card title="Project 4" image="https://via.placeholder.com/150" content="This is a project." />
-            <Card title="Project 5" image="https://via.placeholder.com/150" content="This is a project." />
-            <Card title="Project 6" image="https://via.placeholder.com/150" content="This is a project." />
-          </div>
+          <Portfolio />
         </div>
         <div className="Skills">
           <h2>Skills / Experience</h2>
