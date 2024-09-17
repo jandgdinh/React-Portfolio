@@ -16,21 +16,21 @@ function Portfolio() {
     },
     {
       title: 'VehicleCreator',
-      image: 'https://nodejs.org/zh-tw/next-data/og?title=Node.js%20%E2%80%94%20Node.js%20with%20TypeScript&type=announcement',
+      image: vehicleCreatorImage,
       description: 'This is a command line project that will help the user create a vehicle using node.js and typescript',
       githubLink: 'https://github.com/jandgdinh/VehicleCreator',
       deployedLink: 'https://example.com/VehicleCreator' // Add the deployed link
     },
     {
       title: 'weatherDashboard',
-      image: 'https://via.placeholder.com/150',
+      image: weatherDashboardImage,
       description: 'This application will give the user a weather dashboard for multiple cities.',
       githubLink: 'https://github.com/jandgdinh/weatherDashboard',
       deployedLink: 'https://example.com/weatherDashboard' // Add the deployed link
     },
     {
       title: 'Coding Quiz Game',
-      image: 'https://via.placeholder.com/150',
+      image: codingQuizImage,
       description: 'Simple coding quiz created together with 3 other developers using git, HTML, CSS, and JavaScript.',
       githubLink: 'https://example.com/project4',
       deployedLink: 'https://example.com/CodingQuizGame' // Add the deployed link
