@@ -54,6 +54,11 @@
     gap: 16px;
   }
 
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
   #github {
     width: 24px; 
     height: 24px; 
