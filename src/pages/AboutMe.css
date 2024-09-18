@@ -1,0 +1,39 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/images/background.avif'); /* Corrected syntax */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  .card {
+    max-width: 777px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white; /* Ensures the card has a white background */
+    border-radius: 8px; /* Adds rounded corners to the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .card-content img {
+    width: 333px;
+    height: 333px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }

@@ -2,7 +2,7 @@
 
 /* Ensure the entire page has a dark blue background */
 html, body {
-  background-color: #1a1a2e; /* Dark blue background */
+  background-color: #1a1a2e; 
   color: #ffffff; /* White text */
   margin: 0;
   padding: 0;
@@ -15,13 +15,13 @@ html, body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #1a1a2e; /* Dark blue background */
-  color: #ffffff; /* White text */
+  background-color: #1a1a2e; 
+  color: #ffffff; 
 }
 
 /* Styling for headers */
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff; /* White text */
+  color: #ffffff; 
 }
 
 /* Styling for links */
@@ -169,10 +169,6 @@ footer {
 .card-text {
   font-size: 1em;
   color: #555;
-}
-
-.read-the-docs {
-  color: #888;
 }
 
 header h1 {
