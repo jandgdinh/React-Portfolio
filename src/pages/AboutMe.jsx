@@ -13,9 +13,9 @@ export default function AboutMe() {
       <div className="card">
         
         <div className="card-content">
-          <p>
+          <h3>
             Hi my name is John Dinh and I am a Full Stack Developer from Seattle, WA with a wife and two kids. I have experience with HTML, CSS, JavaScript, Typescript, React, Node.js, Express, PostgreSQL, C, and Python. I am currently looking for a job as a Full Stack Developer or software engineering intern.
-          </p>
+          </h3>
           <img src={profilePic} alt="John Dinh" width="500px" />
         </div>
       </div>
