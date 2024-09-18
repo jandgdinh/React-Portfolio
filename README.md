@@ -29,7 +29,7 @@
 
   ## Website Preview
 
-  ![alt text](https://github.com/jandgdinh/React-Portfolio/blob/websitepreview.png?raw=true)
+  ![alt text](https://github.com/jandgdinh/React-Portfolio/blob/main/src/assets/websitepreview.png?raw=true)
 
   ## Questions
   If you have any questions, please open an issue or contact me directly at jandgdinh@gmail.com. You can find more of my work at https://github.com/jandgdinh
