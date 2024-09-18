@@ -2,8 +2,8 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 2rem;
-    background-color: #1a1a2e; /* Dark blue background */
-    color: #ffffff; /* White text */
+    background-color: #1a1a2e; 
+    color: #ffffff; 
     border-radius: 8px;
   }
   
@@ -21,8 +21,8 @@
   
   .form-button {
     padding: 0.5rem 1rem;
-    background-color: #0f3460; /* Dark blue-grey background */
-    color: #ffffff; /* White text */
+    background-color: #0f3460;
+    color: #ffffff; 
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -30,11 +30,11 @@
   }
   
   .form-button:hover {
-    background-color: #16213e; /* Darker blue-grey on hover */
+    background-color: #16213e; 
   }
   
   .error {
-    color: #ff4d4d; /* Red color for error messages */
+    color: #ff4d4d; 
     margin-top: -0.5rem;
     margin-bottom: 1rem;
   }

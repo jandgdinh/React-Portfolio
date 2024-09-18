@@ -1,0 +1,12 @@
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a2e; 
+  }
+  
+  .splash-logo {
+    width: 200px; 
+    height: auto;
+  }

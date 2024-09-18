@@ -3,7 +3,7 @@
 /* Ensure the entire page has a dark blue background */
 html, body {
   background-color: #1a1a2e; 
-  color: #ffffff; /* White text */
+  color: #ffffff; 
   margin: 0;
   padding: 0;
   height: 100%;
@@ -26,17 +26,17 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Styling for links */
 a {
-  color: #61dafb; /* Light blue for links */
+  color: #61dafb; 
   text-decoration: none;
 }
 a:hover {
-  color: #21a1f1; /* Darker blue on hover */
+  color: #21a1f1; 
 }
 
 /* Styling for buttons */
 button {
-  background-color: #0f3460; /* Dark blue-grey background */
-  color: #ffffff; /* White text */
+  background-color: #0f3460; 
+  color: #ffffff; 
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -44,14 +44,14 @@ button {
   transition: background-color 300ms;
 }
 button:hover {
-  background-color: #16213e; /* Darker blue-grey on hover */
+  background-color: #16213e; 
 }
 
 /* Styling for form inputs */
 input, textarea {
-  background-color: #16213e; /* Darker blue-grey background */
-  color: #ffffff; /* White text */
-  border: 1px solid #0f3460; /* Dark blue-grey border */
+  background-color: #16213e; 
+  color: #ffffff; 
+  border: 1px solid #0f3460;
   padding: 10px;
   border-radius: 5px;
   width: 100%;
@@ -60,79 +60,78 @@ input, textarea {
 
 /* Styling for form labels */
 label {
-  color: #ffffff; /* White text */
+  color: #ffffff;
   display: block;
   margin-bottom: 5px;
 }
 
 /* Styling for navigation tabs */
 .nav-tabs {
-  background-color: #0f3460; /* Dark blue-grey background */
+  background-color: #0f3460; 
   padding: 10px;
   border-radius: 5px;
 }
 .nav-link {
-  color: #ffffff; /* White text */
+  color: #ffffff;
   padding: 10px 15px;
   text-decoration: none;
   transition: background-color 300ms;
 }
 .nav-link.active {
-  background-color: #16213e; /* Darker blue-grey for active link */
+  background-color: #16213e; 
 }
 .nav-link:hover {
-  background-color: #16213e; /* Darker blue-grey on hover */
+  background-color: #16213e; 
 }
 
 .home {
-  padding: 16px; /* Add padding to the home container */
+  padding: 16px;
 }
 
 header {
-  margin-top: 24px; /* Add space above the header */
-  margin-bottom: 24px; /* Add space below the header */
+  margin-top: 24px; 
+  margin-bottom: 24px; 
 }
 
 
 .Skills {
-  /* Add space below the Skills section */
  margin-top: 100px;
  margin-bottom: 100px;
 }
 
 .Projects {
-  /* Add space below the Projects section */
+ 
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
 content {
-  margin-bottom: 24px; /* Add space below the content */
+  margin-bottom: 24px; 
 }
 
 footer {
-  margin-top: 24px; /* Add space above the footer */
-  margin-bottom: 24px; /* Add space below the footer */
+  margin-top: 24px;
+  margin-bottom: 24px; 
   text-align: center;
   padding: 1rem;
-  background-color: #1a1a2e; /* Dark blue background */
-  color: #ffffff; /* White text */
+  background-color: #1a1a2e;
+  color: #ffffff; 
 }
 
 .footer-links {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Space between the icons */
+  gap: 20px; 
   margin-top: 10px;
 }
 
 .footer-links a {
-  color: #ffffff; /* White color for icons */
+  color: #ffffff; 
   transition: color 0.3s;
 }
 
 .footer-links a:hover {
-  color: #61dafb; /* Light blue on hover */
+  color: #61dafb; 
 }
 
 /* Style for Cards */
@@ -141,23 +140,23 @@ footer {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 100%; /* Ensure the card takes full width of its container */
-  max-width: 300px; /* Optional: Set a max-width for the cards */
-  margin: 16px; /* Adjust the margin as needed */
-  flex: 1 1 calc(33.333% - 32px); /* Adjust the width of the cards */
-  box-sizing: border-box; /* Ensure the padding and border are included in the width */
+  width: 100%; 
+  max-width: 300px; 
+  margin: 16px; 
+  flex: 1 1 calc(33.333% - 32px); 
+  box-sizing: border-box; 
 }
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px; /* Adjust the gap between cards as needed */
-  justify-content: center; /* Center the cards horizontally */
-  margin-bottom: 24px; /* Add space below the card container */
+  gap: 16px; 
+  justify-content: center; 
+  margin-bottom: 24px; 
 }
 .card-image {
-  width: 100%; /* Ensure the image takes full width of its container */
-  height: 200px; /* Set a fixed height for the images */
-  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
 }
 .card-content {
   padding: 16px;

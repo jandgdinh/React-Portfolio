@@ -1,13 +1,25 @@
-// Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-
+import SplashScreen from './components/SplashScreen';
+import { useState, useEffect } from 'react';
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Display the splash screen for 2 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <SplashScreen />;
+  }
   return (
     <>
       <header>

@@ -1,8 +1,8 @@
 .resume-buttons {
-    display: flex; /* Display buttons in a row */
-    gap: 10px; /* Space between the buttons */
-    margin-bottom: 20px; /* Space below the buttons */
-    justify-content: center; /* Center the buttons */
+    display: flex; 
+    gap: 10px; 
+    margin-bottom: 20px;
+    justify-content: center; 
   }
   
   .resume-buttons a {
@@ -11,8 +11,8 @@
   
   .resume-buttons button {
     padding: 10px 20px;
-    background-color: #0f3460; /* Dark blue-grey background */
-    color: #ffffff; /* White text */
+    background-color: #0f3460; 
+    color: #ffffff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -20,5 +20,5 @@
   }
   
   .resume-buttons button:hover {
-    background-color: #16213e; /* Darker blue-grey on hover */
+    background-color: #16213e; 
   }
