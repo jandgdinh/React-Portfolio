@@ -32,7 +32,7 @@ function Portfolio() {
       title: 'Coding Quiz Game',
       image: codingQuizImage,
       description: 'Simple coding quiz created together with 3 other developers using git, HTML, CSS, and JavaScript.',
-      githubLink: 'https://example.com/project4',
+      githubLink: 'https://github.com/jandgdinh/CodingQuiz',
       deployedLink: 'https://example.com/CodingQuizGame' // Still need to add the deployed link
     },
     {
