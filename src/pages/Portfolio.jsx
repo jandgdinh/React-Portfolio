@@ -19,14 +19,14 @@ function Portfolio() {
       image: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*ETT6Lw3JvyD62KDTMuG3Mg.png',
       description: 'An innovative application leveraging OpenAI\'s ChatGPT API to provide enthusiastic responses based on city names via POST requests.',
       githubLink: 'https://github.com/jandgdinh/PromptEngineering',
-      deployedLink: 'https://example.com/PromptEngineering' // Still need to add the deployed link
+      deployedLink: 'https://drive.google.com/file/d/1NmeV2VvcDQggWze39t45283vzvV33EKL/view?usp=sharing'
     },
     {
       title: 'VehicleCreator',
       image: vehicleCreatorImage,
       description: 'A command-line tool empowering users to create custom vehicles using Node.js and TypeScript for robust and efficient performance.',
       githubLink: 'https://github.com/jandgdinh/VehicleCreator',
-      deployedLink: 'https://drive.google.com/file/d/1c3E7na1-K5b0k8ij5azjee9MXMOuJ3Mv/view?usp=sharing' // Still need to add the deployed link
+      deployedLink: 'https://drive.google.com/file/d/1c3E7na1-K5b0k8ij5azjee9MXMOuJ3Mv/view?usp=sharing'
     },
     {
       title: 'READMEcreator',
@@ -40,21 +40,21 @@ function Portfolio() {
       image: weatherDashboardImage,
       description: 'An interactive weather dashboard providing real-time updates for multiple cities using the OpenWeather API. Features a responsive design for an optimal user experience across devices.',
       githubLink: 'https://github.com/jandgdinh/weatherDashboard',
-      deployedLink: 'https://weatherdashboard-zm0v.onrender.com/' // Still need to add the deployed link
+      deployedLink: 'https://weatherdashboard-zm0v.onrender.com/'
     },
     {
       title: 'employeeCreator',
       image: employeeTrackerImage,
       description: 'A comprehensive tool for managing employee databases, roles, and more, utilizing npm and PostgreSQL for robust data handling.',
       githubLink: 'https://github.com/jandgdinh/employeeTracker',
-      deployedLink: 'https://drive.google.com/file/d/117dNHTfolvE1uKEe0vQaB525D52nYjGX/view?usp=sharing' // Add the deployed link
+      deployedLink: 'https://drive.google.com/file/d/117dNHTfolvE1uKEe0vQaB525D52nYjGX/view?usp=sharing'
     },
     {
       title: 'Coding Quiz Game',
       image: codingQuizImage,
       description: 'A collaborative coding quiz game developed with HTML, CSS, and JavaScript, offering an engaging way to test coding knowledge.',
       githubLink: 'https://github.com/jandgdinh/CodingQuiz',
-      deployedLink: 'https://codingquiz.onrender.com/' // Still need to add the deployed link
+      deployedLink: 'https://codingquiz.onrender.com/'
     },
   ];
 
@@ -69,7 +69,7 @@ function Portfolio() {
           image={project.image}
           description={project.description}
           githubLink={project.githubLink}
-          deployedLink={project.deployedLink} // Pass the deployed link
+          deployedLink={project.deployedLink} 
         />
       ))}
     </div>
