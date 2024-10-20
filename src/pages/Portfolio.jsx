@@ -51,7 +51,7 @@ function Portfolio() {
     },
     {
       title: 'Social Network API',
-      image: 'https://placedog.net/360/480/',
+      image: 'https://i.ytimg.com/vi/AwDn_Ct_67I/maxresdefault.jpg',
       description: 'This is social network application where users can share their thoughts, react to friend\'s thoughts, and create a friend list. This application uses Express.js for routing, MongoDB for database, and Mongoose for ODM.',
       githubLink: 'https://github.com/jandgdinh/SocialNetworkAPI',
       deployedLink: 'https://example.com/employeeCreator'
