@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import './Contact.css'; // Assuming you have a CSS file for styling
 
 function Contact() {
@@ -6,6 +7,7 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleBlur = (field) => {
     let newErrors = { ...errors };
@@ -45,14 +47,23 @@ function Contact() {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-      // Submit form
-      console.log('Form submitted:', { name, email, message });
+      // Send email using EmailJS
+      emailjs.sendForm('service_cvrxsjd', 'template_ktbm5jh', e.target, 'kSdpVu_sIeYYEenrQ')
+        .then((result) => {
+          console.log(result.text);
+          setSuccessMessage('Your message has been sent successfully!');
+        }, (error) => {
+          console.log(error.text);
+        });
+
+      // Clear form fields
+      setName('');
+      setEmail('');
+      setMessage('');
     }
   };
 
   return (
-    <>
-    <h1>Contact Me</h1>
     <div className="contact-form-container">
       <form onSubmit={handleSubmit} className="contact-form">
         <label htmlFor="name">Name:</label>
@@ -88,9 +99,9 @@ function Contact() {
         {errors.message && <p className="error">{errors.message}</p>}
 
         <button type="submit" className="form-button">Submit</button>
+        {successMessage && <p className="success">{successMessage}</p>}
       </form>
     </div>
-    </>
   );
 }
 

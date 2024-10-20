@@ -13,7 +13,7 @@ function Project({ title, image, description, githubLink, deployedLink }) {
           <a href={githubLink} className="project-link" target="_blank" rel="noopener noreferrer">
             <img id="github" src={githubIcon} alt="GitHub" className="github-icon" />
           </a>
-          <a href={deployedLink} className="project-link" target="_blank" rel="noopener noreferrer">
+          <a href={deployedLink} className="project-link project-link-right" target="_blank" rel="noopener noreferrer">
             View Deployed Project
           </a>
         </div>
