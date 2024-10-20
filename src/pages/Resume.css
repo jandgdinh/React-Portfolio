@@ -1,6 +1,7 @@
 .resume-buttons {
     display: flex; 
-    gap: 10px; 
+    gap: 10px;
+    margin-top: 10px;
     margin-bottom: 20px;
     justify-content: center; 
   }
@@ -21,4 +22,17 @@
   
   .resume-buttons button:hover {
     background-color: #16213e; 
+  }
+
+  .resume-buttons button:active {
+    transform: translateY(2px);
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Skills {
+    margin-top: 0px;
   }

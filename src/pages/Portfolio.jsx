@@ -12,7 +12,7 @@ function Portfolio() {
       image: 'https://i.ytimg.com/vi/AwDn_Ct_67I/maxresdefault.jpg',
       description: 'A dynamic social network application enabling users to share thoughts, react to friends\' posts, and build a friend list. Built with Express.js, MongoDB, and Mongoose for seamless performance.',
       githubLink: 'https://github.com/jandgdinh/SocialNetworkAPI',
-      deployedLink: 'https://example.com/employeeCreator'
+      deployedLink: 'https://drive.google.com/file/d/1PblUbTtBpDK0oGY84hUfUvRF3VGdghXw/view?usp=sharing'
     },
     {
       title: 'Prompt Engineering',
@@ -26,35 +26,35 @@ function Portfolio() {
       image: vehicleCreatorImage,
       description: 'A command-line tool empowering users to create custom vehicles using Node.js and TypeScript for robust and efficient performance.',
       githubLink: 'https://github.com/jandgdinh/VehicleCreator',
-      deployedLink: 'https://example.com/VehicleCreator' // Still need to add the deployed link
+      deployedLink: 'https://drive.google.com/file/d/1c3E7na1-K5b0k8ij5azjee9MXMOuJ3Mv/view?usp=sharing' // Still need to add the deployed link
     },
     {
       title: 'READMEcreator',
       image: 'https://miro.medium.com/v2/resize:fit:1200/1*oppPsIqwEiB_kndtd6GWxA.png',
       description: 'A streamlined program designed to generate professional README.md files effortlessly using Node.js and Inquirer.',
       githubLink: 'https://github.com/jandgdinh/READMEcreator',
-      // Still need to add the deployed link
+      deployedLink: 'https://drive.google.com/file/d/1qEqsrhGoWq1lmqcuZ0c-l_YAX7-bJfko/view?usp=sharing'
     },
     {
       title: 'weatherDashboard',
       image: weatherDashboardImage,
       description: 'An interactive weather dashboard providing real-time updates for multiple cities using the OpenWeather API. Features a responsive design for an optimal user experience across devices.',
       githubLink: 'https://github.com/jandgdinh/weatherDashboard',
-      deployedLink: 'https://example.com/weatherDashboard' // Still need to add the deployed link
+      deployedLink: 'https://weatherdashboard-zm0v.onrender.com/' // Still need to add the deployed link
     },
     {
       title: 'employeeCreator',
       image: employeeTrackerImage,
       description: 'A comprehensive tool for managing employee databases, roles, and more, utilizing npm and PostgreSQL for robust data handling.',
       githubLink: 'https://github.com/jandgdinh/employeeTracker',
-      deployedLink: 'https://example.com/employeeCreator' // Add the deployed link
+      deployedLink: 'https://drive.google.com/file/d/117dNHTfolvE1uKEe0vQaB525D52nYjGX/view?usp=sharing' // Add the deployed link
     },
     {
       title: 'Coding Quiz Game',
       image: codingQuizImage,
       description: 'A collaborative coding quiz game developed with HTML, CSS, and JavaScript, offering an engaging way to test coding knowledge.',
       githubLink: 'https://github.com/jandgdinh/CodingQuiz',
-      deployedLink: 'https://example.com/CodingQuizGame' // Still need to add the deployed link
+      deployedLink: 'https://codingquiz.onrender.com/' // Still need to add the deployed link
     },
   ];
 
