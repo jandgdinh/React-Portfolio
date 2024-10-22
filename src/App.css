@@ -17,6 +17,7 @@ body {
   padding: 2rem;
   text-align: center;
   background-color: #1a1a2e;
+  background: linear-gradient(to bottom, rgba(26, 26, 46, 1) 0%, rgba(26, 26, 46, 0.97) 50%, rgba(26, 26, 46, 0.8) 100%);
   color: #ffffff;
 }
 
