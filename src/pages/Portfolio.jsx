@@ -4,9 +4,16 @@ import weatherDashboardImage from '../assets/weatherDashboard.png';
 import codingQuizImage from '../assets/codingQuiz.png';
 import employeeTrackerImage from '../assets/employeeTracker.png';
 import vehicleCreatorImage from '../assets/vehicleCreator.png';
+import portfolioImage from '../assets/screenshot.png';
 
 function Portfolio() {
   const projectData = [
+    {
+      title: 'Doomsday Depot',
+      image: portfolioImage,
+      description: 'A full-stack e-commerce application designed to provide users with a seamless shopping experience. Features include user authentication, product search, cart management, and order processing. Built with React, Typescript, Node.js, Express.js, MongoDB, and GraphQL.',
+      githubLink: 'https://github.com/jandgdinh/doomsday_depot',
+    },
     {
       title: 'Social Network API',
       image: 'https://i.ytimg.com/vi/AwDn_Ct_67I/maxresdefault.jpg',
