@@ -1,4 +1,4 @@
-import resumePDF from '../assets/johndinhresume.pdf';
+import resumePDF from '../assets/johndinhresume2025.pdf';
 import Card from "../components/Card";
 import "./Resume.css";
 
