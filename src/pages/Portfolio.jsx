@@ -13,6 +13,7 @@ function Portfolio() {
       image: portfolioImage,
       description: 'A full-stack e-commerce application designed to provide users with a seamless shopping experience. Features include user authentication, product search, cart management, and order processing. Built with React, Typescript, Node.js, Express.js, MongoDB, and GraphQL.',
       githubLink: 'https://github.com/jandgdinh/doomsday_depot',
+      deployedLink: 'https://doomsday-depot-e3b01e59b096.herokuapp.com/'
     },
     {
       title: 'Social Network API',
