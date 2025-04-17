@@ -5,9 +5,17 @@ import codingQuizImage from '../assets/codingQuiz.png';
 import employeeTrackerImage from '../assets/employeeTracker.png';
 import vehicleCreatorImage from '../assets/vehicleCreator.png';
 import portfolioImage from '../assets/screenshot.png';
+import gn001Image from '../assets/gn-001screenshot.png';
 
 function Portfolio() {
   const projectData = [
+    {
+      title: 'GN-001 Creations',
+      image: gn001Image,
+      description: 'A visually stunning website showcasing a variety of cakes with detailed descriptions, pricing, and an easy-to-use ordering system. Built with React, CSS, and Node.js for a delightful user experience. The site features a responsive design, ensuring accessibility across devices.',
+      githubLink: 'https://github.com/jandgdinh/GN001-Creations',
+      deployedLink: 'https://gn001-creations.onrender.com/'
+    },
     {
       title: 'Doomsday Depot',
       image: portfolioImage,
